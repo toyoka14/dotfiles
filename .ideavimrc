@@ -1,0 +1,31 @@
+nnoremap g; :<C-u>action JumpToLastChange<CR>
+nnoremap g, :<C-u>action JumpToNextChange<CR>
+
+" plugins
+set easymotion
+set surround
+set commentary
+set ReplaceWithRegister
+set argtextobj
+set textobj-entire
+set matchit
+set NERDTree
+set highlightedyank
+
+" key
+let mapleader = "\<Space>"
+
+map <leader>w <Plug>(easymotion-bd-w)
+map <leader>s <Plug>(easymotion-bd-f2)
+map <leader>l <Plug>(easymotion-bd-jk)
+
+#nnoremap <C-o> :<C-u>action Back<CR>
+#nnoremap <C-i> :<C-u>action Forward<CR>
+
+map <C-o> <Action>(Back)
+map <C-i> <Action>(Forward)
+map gd <Action>(GotoDeclaration)
+map gi <Action>(GotoImplementation)
+
+" load common settings
+source ~/.config/vim/common.vim
