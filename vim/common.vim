@@ -1,4 +1,9 @@
+" common
 set number
+set expandtab
+set autoindent
+set clipboard+=unnamed
+syntax on
 
 " search
 set ignorecase
@@ -21,7 +26,3 @@ set statusline+=%w
 set statusline+=%=
 set statusline+=[%{&fileencoding}]
 set statusline+=[%l/%L]
-
-"other
-set clipboard+=unnamed
-syntax on
