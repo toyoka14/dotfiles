@@ -1,8 +1,8 @@
 " common
 set number
-set expandtab
-set autoindent
 set clipboard+=unnamed
+set wildmenu
+set wildmode=list:longest
 syntax on
 
 " search
@@ -26,3 +26,9 @@ set statusline+=%w
 set statusline+=%=
 set statusline+=[%{&fileencoding}]
 set statusline+=[%l/%L]
+
+" indent
+set expandtab
+set smartindent
+set tabstop=4
+set shiftwidth=4
