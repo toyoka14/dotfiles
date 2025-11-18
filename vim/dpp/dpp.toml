@@ -1,0 +1,31 @@
+[[plugins]]
+repo = 'tpope/vim-surround'
+
+[[plugins]]
+repo = 'nvim-treesitter/nvim-treesitter'
+
+[[plugins]]
+repo = 'MeanderingProgrammer/render-markdown.nvim'
+
+[[plugins]]
+repo = 'lewis6991/gitsigns.nvim'
+
+
+# vimのバージョンが外れてしまったのでコメントアウト、あと何故か
+# [denops] Failed to load plugin 'ddu': TypeError: Relative import path "@core/unknownutil/ensure" not prefixed with / or ./ or ../ and not in import map from "file:///xxxx/.dpp/denops/ddu/app.ts"
+# と出る
+# ddu plugins
+#[[plugins]]
+#repo = 'Shougo/ddu.vim'
+#
+#[[plugins]]
+#repo = 'Shougo/ddu-ui-ff'
+#
+#[[plugins]]
+#repo = 'Shougo/ddu-filter-matcher_substring'
+#
+#[[plugins]]
+#repo = 'Shougo/ddu-source-file_rec'
+#
+#[[plugins]]
+#repo = 'Shougo/ddu-kind-file'
